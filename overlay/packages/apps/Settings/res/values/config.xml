@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false">com.custom.ambient.display/com.custom.ambient.display.DozeSettings</string>
+
     <!-- Device specific gesture package -->
     <string name="config_customGesturePackage">com.oneplus.settings.device/com.oneplus.settings.device.TouchscreenGestureSettings</string>
 
