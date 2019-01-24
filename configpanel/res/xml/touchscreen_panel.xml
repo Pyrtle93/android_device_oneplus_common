@@ -51,12 +51,6 @@
             android:title="@string/button_swap_title"
             android:summary="@string/button_swap_summary" />
 
-        <SwitchPreference
-            android:key="touchscreen_gesture_haptic_feedback"
-            android:persistent="false"
-            android:title="@string/haptic_feedback"
-            android:summary="@string/haptic_feedback_summary" />
-
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/screen_gestures_summary">
@@ -75,6 +69,12 @@
             android:key="touchscreen_gesture_flashlight"
             android:title="@string/touchscreen_flashlight_gesture_title"
             android:summary="@string/touchscreen_flashlight_gesture_summary" />
+
+        <SwitchPreference
+            android:key="touchscreen_gesture_haptic_feedback"
+            android:persistent="false"
+            android:title="@string/haptic_feedback"
+            android:summary="@string/haptic_feedback_summary" />
 
     </PreferenceCategory>
 
